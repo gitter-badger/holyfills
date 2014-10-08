@@ -6,4 +6,5 @@ describe("helpers", function() {
   require("./FunctionPrototype");
   require("./StringPrototype");
   require("./NumberPrototype");
+  require("./object_to_string");
 });
