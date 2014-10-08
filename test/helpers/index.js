@@ -8,4 +8,5 @@ describe("helpers", function() {
   require("./NumberPrototype");
   require("./object_to_string");
   require("./array_slice");
+  require("./array_splice");
 });
