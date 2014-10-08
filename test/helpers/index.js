@@ -7,4 +7,5 @@ describe("helpers", function() {
   require("./StringPrototype");
   require("./NumberPrototype");
   require("./object_to_string");
+  require("./array_slice");
 });
