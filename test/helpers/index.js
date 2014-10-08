@@ -2,4 +2,5 @@
 
 describe("helpers", function() {
   require("./ArrayPrototype");
+  require("./ObjectPrototype");
 });
