@@ -19,4 +19,5 @@ describe("helpers", function() {
   require("./isPrimitive");
   require("./toPrimitive");
   require("./toObject");
+  require("./toUint32");
 });
