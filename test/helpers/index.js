@@ -9,4 +9,5 @@ describe("helpers", function() {
   require("./object_to_string");
   require("./array_slice");
   require("./array_splice");
+  require("./array_push");
 });
