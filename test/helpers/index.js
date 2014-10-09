@@ -12,4 +12,5 @@ describe("helpers", function() {
   require("./array_push");
   require("./array_unshift");
   require("./isFunction");
+  require("./isRegex");
 });
