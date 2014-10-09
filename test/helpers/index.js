@@ -17,4 +17,5 @@ describe("helpers", function() {
   require("./isArguments");
   require("./toInteger");
   require("./isPrimitive");
+  require("./toPrimitive");
 });
