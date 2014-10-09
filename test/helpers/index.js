@@ -14,4 +14,5 @@ describe("helpers", function() {
   require("./isFunction");
   require("./isRegex");
   require("./isString");
+  require("./isArguments");
 });
