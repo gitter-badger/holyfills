@@ -18,4 +18,5 @@ describe("helpers", function() {
   require("./toInteger");
   require("./isPrimitive");
   require("./toPrimitive");
+  require("./toObject");
 });
