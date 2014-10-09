@@ -11,4 +11,5 @@ describe("helpers", function() {
   require("./array_splice");
   require("./array_push");
   require("./array_unshift");
+  require("./isFunction");
 });
