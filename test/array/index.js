@@ -5,4 +5,5 @@ describe("Array", function() {
   require("./array_splice");
   require("./array_unshift");
   require("./array_forEach");
+  require("./array_map");
 });
