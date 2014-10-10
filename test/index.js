@@ -9,6 +9,8 @@ describe("holyfills", function() {
     global.IS_ARRAY_SPLICE_WORKS_AS_EXPECTED_FOR_EMPTY_OBJECT = false;
     global.IS_ARRAY_SPLICE_WORKS_AS_EXPECTED = false;
     global.IS_ARRAY_UNSHIFT_WORKS_AS_EXPECTED = false;
+    global.IS_ARRAY_FOREACH_WORKS_AS_EXPECTED = false,
+    global.HAS_ARRAY_FOREACH = false;
   });
   require("./helpers");
   require("./array");
