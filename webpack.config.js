@@ -18,7 +18,7 @@ var IS_ARRAY_SPLICE_WORKS_AS_EXPECTED_FOR_NOOP_EMPTY_ARRAY = false,
     VAR_PLACEHOLDER;
 
 module.exports = {
-  entry: "./index.js",
+  entry: "./lib/index.js",
   output: {
     path: __dirname + "/dist",
     filename: "bundle.js"
