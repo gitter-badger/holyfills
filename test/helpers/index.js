@@ -20,4 +20,5 @@ describe("helpers", function() {
   require("./toPrimitive");
   require("./toObject");
   require("./toUint32");
+  require("./assignProperty");
 });
