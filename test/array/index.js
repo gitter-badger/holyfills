@@ -7,4 +7,5 @@ describe("Array", function() {
   require("./array_forEach");
   require("./array_map");
   require("./array_filter");
+  require("./array_every");
 });

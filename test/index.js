@@ -15,6 +15,8 @@ describe("holyfills", function() {
     global.HAS_ARRAY_MAP = false;
     global.IS_ARRAY_FILTER_WORKS_AS_EXPECTED = false;
     global.HAS_ARRAY_FILTER = false;
+    global.IS_ARRAY_EVERY_WORKS_AS_EXPECTED = false;
+    global.HAS_ARRAY_EVERY = false;
   });
   require("./helpers");
   require("./array");
