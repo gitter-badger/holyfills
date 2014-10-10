@@ -9,4 +9,5 @@ describe("Array", function() {
   require("./array_filter");
   require("./array_every");
   require("./array_some");
+  require("./array_reduce");
 });
