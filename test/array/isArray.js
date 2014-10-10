@@ -8,7 +8,7 @@ describe("isArray", function () {
   });
 
   it("should be a polyfill", function () {
-    isArray.toString().should.not.equal("function isArray() { [native code] }");
+    isArray.toString().should.not.containEql("[native code]");
   });
 
   it("should be true for Array", function () {
