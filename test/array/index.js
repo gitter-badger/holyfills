@@ -8,4 +8,5 @@ describe("Array", function() {
   require("./array_map");
   require("./array_filter");
   require("./array_every");
+  require("./array_some");
 });
