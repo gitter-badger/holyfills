@@ -37,6 +37,7 @@ describe("holyfills", function() {
     global.IS_STRING_REPLACE_WORKS_AS_EXPECTED = false;
     global.IS_STRING_SUBSTR_WORKS_AS_EXPECTED = false;
     global.IS_STRING_TRIM_WORKS_AS_EXPECTED = false;
+    global.IS_PARSE_INT_WORKS_AS_EXPECTED = false;
   });
   require("./helpers");
   require("./array");
@@ -44,4 +45,5 @@ describe("holyfills", function() {
   require("./object");
   require("./number");
   require("./string");
+  require("./parseInt");
 });

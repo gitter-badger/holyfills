@@ -73,6 +73,7 @@ module.exports = {
       IS_STRING_REPLACE_WORKS_AS_EXPECTED: false,
       IS_STRING_SUBSTR_WORKS_AS_EXPECTED: false,
       IS_STRING_TRIM_WORKS_AS_EXPECTED: false,
+      IS_PARSE_INT_WORKS_AS_EXPECTED: false,
     })
     // new webpack.optimize.UglifyJsPlugin()
   ]
