@@ -35,6 +35,7 @@ describe("holyfills", function() {
     global.IS_STRING_SPLIT_WORKS_AS_EXPECTED_FOR_UNDEFINED = false;
     global.IS_STRING_SPLIT_WORKS_AS_EXPECTED = false;
     global.IS_STRING_REPLACE_WORKS_AS_EXPECTED = false;
+    global.IS_STRING_SUBSTR_WORKS_AS_EXPECTED = false;
   });
   require("./helpers");
   require("./array");
