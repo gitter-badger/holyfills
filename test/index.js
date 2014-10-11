@@ -29,9 +29,12 @@ describe("holyfills", function() {
     global.HAS_ARRAY_LAST_INDEX_OF = false;
     global.IS_OBJECT_KEYS_WORKS_AS_EXPECTED_FOR_ARGUMENTS = false;
     global.HAS_OBJECT_KEYS = false;
+    global.IS_NUMBER_TO_FIXED_WORKS_AS_EXPECTED = false;
+    global.HAS_NUMBER_TO_FIXED = false;
   });
   require("./helpers");
   require("./array");
   require("./function");
   require("./object");
+  require("./number");
 });
