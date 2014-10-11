@@ -23,4 +23,5 @@ describe("helpers", function() {
   require("./assignProperty");
   require("./owns");
   require("./toFixedUtils");
+  require("./DatePrototype");
 });
