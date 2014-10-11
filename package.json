@@ -1,18 +1,38 @@
 {
   "name": "holyfills",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "No more \"Holy Sxxt!!\" when writting ES5/ES6",
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
     "test": "mocha --require should",
     "dev": "mocha --require should --watch"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomchentw/holyfills"
+  },
+  "keywords": [
+    "ES5",
+    "ES6",
+    "polyfills",
+    "polyfill",
+    "shim",
+    "es5-shim"
+  ],
+  "author": {
+    "name": "tomchentw",
+    "email": "developer@tomchentw.com",
+    "url": "https://github.com/tomchentw"
+  },
   "license": {
     "type": "MIT",
     "url": "http://tomchentw.mit-license.org"
   },
+  "bugs": {
+    "url": "https://github.com/tomchentw/holyfills/issues"
+  },
+  "homepage": "https://github.com/tomchentw/holyfills",
   "engines": {
     "node": ">=0.10.0"
   },
