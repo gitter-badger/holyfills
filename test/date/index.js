@@ -7,4 +7,5 @@ describe("Date", function() {
   require("./parse");
   require("./date_toString");
   require("./date_valueOf");
+  require("./now");
 });
