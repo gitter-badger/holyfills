@@ -40,6 +40,8 @@ describe("holyfills", function() {
     global.IS_PARSE_INT_WORKS_AS_EXPECTED = false;
     global.IS_DATE_TO_ISO_STRING_WORKS_AS_EXPECTED = false;
     global.HAS_DATE_TO_ISO_STRING = false;
+    global.IS_DATE_TO_JSON_WORKS_AS_EXPECTED = false;
+    global.HAS_DATE_TO_JSON = false;
   });
   require("./helpers");
   require("./array");
