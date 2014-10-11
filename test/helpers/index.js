@@ -22,4 +22,5 @@ describe("helpers", function() {
   require("./toUint32");
   require("./assignProperty");
   require("./owns");
+  require("./toFixedUtils");
 });
