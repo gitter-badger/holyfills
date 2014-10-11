@@ -1,6 +1,6 @@
 {
   "name": "holyfills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "No more \"Holy Sxxt!!\" when writting ES5/ES6",
   "main": "index.js",
   "scripts": {
