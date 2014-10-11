@@ -23,6 +23,8 @@ describe("holyfills", function() {
     global.HAS_ARRAY_REDUCE = false;
     global.IS_ARRAY_REDUCE_RIGHT_WORKS_AS_EXPECTED = false;
     global.HAS_ARRAY_REDUCE_RIGHT = false;
+    global.IS_ARRAY_INDEX_OF_WORKS_AS_EXPECTED = false;
+    global.HAS_ARRAY_INDEX_OF = false;
   });
   require("./helpers");
   require("./array");

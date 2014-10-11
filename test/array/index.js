@@ -11,4 +11,5 @@ describe("Array", function() {
   require("./array_some");
   require("./array_reduce");
   require("./array_reduceRight");
+  require("./array_indexOf");
 });
