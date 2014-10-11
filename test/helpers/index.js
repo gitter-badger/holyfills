@@ -21,4 +21,5 @@ describe("helpers", function() {
   require("./toObject");
   require("./toUint32");
   require("./assignProperty");
+  require("./owns");
 });
