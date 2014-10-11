@@ -25,6 +25,8 @@ describe("holyfills", function() {
     global.HAS_ARRAY_REDUCE_RIGHT = false;
     global.IS_ARRAY_INDEX_OF_WORKS_AS_EXPECTED = false;
     global.HAS_ARRAY_INDEX_OF = false;
+    global.IS_ARRAY_LAST_INDEX_OF_WORKS_AS_EXPECTED = false;
+    global.HAS_ARRAY_LAST_INDEX_OF = false;
   });
   require("./helpers");
   require("./array");
