@@ -13,4 +13,5 @@ describe("Array", function() {
   require("./array_reduceRight");
   require("./array_indexOf");
   require("./array_lastIndexOf");
+  require("./nonstrict");
 });
