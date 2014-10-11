@@ -31,10 +31,14 @@ describe("holyfills", function() {
     global.HAS_OBJECT_KEYS = false;
     global.IS_NUMBER_TO_FIXED_WORKS_AS_EXPECTED = false;
     global.HAS_NUMBER_TO_FIXED = false;
+    global.IS_STRING_SPLIT_WORKS_AS_EXPECTED_FOR_REGEX = false;
+    global.IS_STRING_SPLIT_WORKS_AS_EXPECTED_FOR_UNDEFINED = false;
+    global.IS_STRING_SPLIT_WORKS_AS_EXPECTED = false;
   });
   require("./helpers");
   require("./array");
   require("./function");
   require("./object");
   require("./number");
+  require("./string");
 });
