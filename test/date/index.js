@@ -3,4 +3,5 @@
 describe("Date", function() {
   require("./date_toISOString");
   require("./date_toJSON");
+  require("./date_constructor");
 });
