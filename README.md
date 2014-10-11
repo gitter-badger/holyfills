@@ -1,4 +1,5 @@
 # holyfills [![Travis CI][travis-image]][travis-url] [![Quality][codeclimate-image]][codeclimate-url] [![Coverage][coveralls-image]][coveralls-url] [![Dependencies][gemnasium-image]][gemnasium-url] [![Gitter][gitter-image]][gitter-url]
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/tomchentw/holyfills?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 > No more "Holy Sxxt!!" when writting ES5/ES6
 
 [![Version][npm-image]][npm-url]
