@@ -8,7 +8,7 @@
 
 ```shell
 npm i
-# TODO
+npm run build # generates dist/es5-shim.min.js
 ```
 
 

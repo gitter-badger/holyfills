@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -p",
     "test": "mocha --require should",
     "dev": "mocha --require should --watch"
   },

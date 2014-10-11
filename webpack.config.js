@@ -39,7 +39,7 @@ module.exports = {
   entry: "./lib/index.js",
   output: {
     path: __dirname + "/dist",
-    filename: "bundle.js"
+    filename: "es5-shim.min.js"
   },
   plugins: [
     new webpack.DefinePlugin({
@@ -86,6 +86,5 @@ module.exports = {
       IS_DATE_CONSTRUCTOR_WORKS_AS_EXPECTED: IS_DATE_CONSTRUCTOR_WORKS_AS_EXPECTED,
       HAS_DATE_NOW: false,
     })
-    // new webpack.optimize.UglifyJsPlugin()
   ]
 };
