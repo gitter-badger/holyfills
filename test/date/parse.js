@@ -84,7 +84,7 @@ describe("parse", function () {
     var actual = Number(new Date(1970, 0));
     var expected = parseInt(actual, 10);
 
-    actual.should.be.ok;
+    (null != actual).should.be.ok;
     actual.should.equal(expected);
     isNaN(actual).should.not.be.ok;
   });
