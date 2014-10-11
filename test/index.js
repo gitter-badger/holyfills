@@ -38,6 +38,8 @@ describe("holyfills", function() {
     global.IS_STRING_SUBSTR_WORKS_AS_EXPECTED = false;
     global.IS_STRING_TRIM_WORKS_AS_EXPECTED = false;
     global.IS_PARSE_INT_WORKS_AS_EXPECTED = false;
+    global.IS_DATE_TO_ISO_STRING_WORKS_AS_EXPECTED = false;
+    global.HAS_DATE_TO_ISO_STRING = false;
   });
   require("./helpers");
   require("./array");
@@ -46,4 +48,5 @@ describe("holyfills", function() {
   require("./number");
   require("./string");
   require("./parseInt");
+  require("./date");
 });
